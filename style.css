@@ -87,7 +87,7 @@ p { color: var(--text); opacity: .95; }
 
 /* Header */
 .site-header {
-  position: fixed; top: 0; inset-inline: 0; z-index: 50; backdrop-filter: blur(8px);
+  position: sticky; top: 0; inset-inline: 0; z-index: 50; backdrop-filter: blur(8px);
   background: color-mix(in oklab, var(--bg) 80%, transparent);
   border-bottom: 1px solid var(--border);
 }
@@ -237,3 +237,4 @@ p { color: var(--text); opacity: .95; }
 .whatii:hover {
   color: #007BFF;
 }
+
